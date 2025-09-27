@@ -1,0 +1,21 @@
+/* general */
+* {
+  background-color: #03120e;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* badges */
+.badge h1 {
+  padding: 2px 12px;
+  font-size: 20px;
+}
