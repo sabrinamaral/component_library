@@ -14,34 +14,34 @@ export default function App() {
         <Badge color="purple" pill={false} />
         <Badge color="pink" pill={false} />
       </section>
-      <section className="banners">
-        <Banner>
-          {{
-            status: "success",
-            title: "Congratulations!",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquidpariatur, ipsum similique veniam.",
-          }}
+      <section>
+        <Banner status="">
+          <h1>Heads up!</h1>
+          <p>This is a custom warning message.</p>
         </Banner>
-        <Banner>
-          {{
-            status: "warning",
-            title: "Attention",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.",
-          }}
+        <Banner status="success">
+          <h1>Congratulations!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            pariatur, ipsum similique veniam.
+          </p>
         </Banner>
-        <Banner>
-          {{
-            status: "error",
-            title: "There is a problem with your application",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.",
-          }}
+        <Banner status="warning">
+          <h1>Attention</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
+          </p>
         </Banner>
-        <Banner>
-          {{
-            status: "neutral",
-            title: "Update available",
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquidpariatur, ipsum similique veniam.",
-          }}
+        <Banner status="error">
+          <h1>There is a problem with your application</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
+          </p>
+        </Banner>
+        <Banner status="neutral">
+          <h1>Update available</h1>
         </Banner>
       </section>
     </>
