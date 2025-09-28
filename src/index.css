@@ -1,6 +1,5 @@
 /* general */
 * {
-  background-color: #03120e;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -8,14 +7,52 @@
 }
 
 body {
+  background-color: #03120e;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* badges */
+/* BADGE */
+.badges {
+  display: flex;
+}
+
+.badge {
+  margin: 0.5rem 0.3rem;
+}
+
 .badge h1 {
   padding: 2px 12px;
   font-size: 20px;
+}
+
+/* BANNER */
+.banner {
+  height: 80px;
+  min-width: 896px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  margin-block: 25px;
+  border-radius: 6px;
+}
+
+.banner h1,
+.banner p {
+  font-size: 14px;
+}
+.banner h1 {
+  margin-bottom: 8px;
+}
+
+.hidden {
+  height: unset;
+  align-items: center;
+}
+
+.hidden h1 {
+  margin-bottom: 0;
 }
