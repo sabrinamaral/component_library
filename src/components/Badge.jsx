@@ -1,9 +1,9 @@
-import { theme } from "../assets/theme";
+import { badgeStatus } from "../assets/badgeStatus";
 
 export default function Badge({ color, pill }) {
   const styles = {
-    color: theme.colors[color],
-    backgroundColor: theme.backgrounds[color],
+    color: badgeStatus.colors[color],
+    backgroundColor: badgeStatus.backgrounds[color],
     borderRadius: pill ? "12px" : null,
   };
 
