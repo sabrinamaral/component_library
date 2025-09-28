@@ -1,4 +1,4 @@
-export const theme = {
+export const badgeStatus = {
   colors: {
     grey: "#1F2937",
     red: "#991B1B",
