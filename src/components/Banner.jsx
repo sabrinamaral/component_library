@@ -6,11 +6,8 @@ import {
   FaInfoCircle,
 } from "react-icons/fa";
 
-export default function Banner({ children }) {
-  const iconStyles = {
-    height: "20px",
-    width: "20px",
-  };
+export default function Banner({ status = "nenutral", children }) {
+  const iconStyles = { height: "20px", width: "20px" };
   const icons = {
     success: <FaCheckCircle style={iconStyles} color="#34D399" />,
     warning: <FaExclamationTriangle style={iconStyles} color="#FBBF24" />,
@@ -18,29 +15,12 @@ export default function Banner({ children }) {
     neutral: <FaInfoCircle style={iconStyles} color="#60A5FA" />,
   };
 
-  let styles;
-  if (bannerStatus[children.status]) {
-    styles = {
-      icon: icons[children.status],
-      titleColor: bannerStatus[children.status].titleColor,
-      textColor: bannerStatus[children.status].textColor,
-      backgroundColor: bannerStatus[children.status].backgroundColor,
-      missingProp: "",
-    };
-  }
+  const styles = bannerStatus[status] || bannerStatus.neutral;
 
   return (
-    <div
-      className={`banner ${!children.text ? "hidden" : ""}`}
-      style={{ background: styles.backgroundColor }}
-    >
-      {styles.icon}
-      <section>
-        <h1 style={{ color: styles.titleColor }}>{children.title}</h1>
-        <p style={{ color: styles.textColor }} color={styles.textColor}>
-          {children.text}
-        </p>
-      </section>
+    <div className="banner" style={{ background: styles.backgroundColor }}>
+      {icons[status] || icons["neutral"]}
+      <section style={{ color: styles.textColor }}>{children}</section>
     </div>
   );
 }

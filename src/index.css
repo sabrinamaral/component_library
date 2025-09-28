@@ -30,7 +30,6 @@ body {
 
 /* BANNER */
 .banner {
-  height: 80px;
   min-width: 896px;
   display: flex;
   align-items: flex-start;
@@ -44,15 +43,7 @@ body {
 .banner p {
   font-size: 14px;
 }
-.banner h1 {
-  margin-bottom: 8px;
-}
 
-.hidden {
-  height: unset;
-  align-items: center;
-}
-
-.hidden h1 {
-  margin-bottom: 0;
+.banner p {
+  margin-top: 8px;
 }
