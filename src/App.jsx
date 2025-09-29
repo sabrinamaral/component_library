@@ -45,19 +45,11 @@ export default function App() {
       <Banner status="neutral">
         <h1>Update available</h1>
       </Banner>
-      <Card>
-        <i>
-          <IoCloudUploadOutline
-            style={{
-              height: "48px",
-              width: "48px",
-              background: "#3f75fe",
-              color: "#fff",
-              borderRadius: "6px",
-              padding: "12px",
-            }}
-          />
-        </i>
+      <Card
+        icon={<IoCloudUploadOutline className="icon-style" />}
+        iconBackground={"#3f75fe"}
+        iconColor={"#fff"}
+      >
         <h1>Easy Deployment</h1>
         <p>
           Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et

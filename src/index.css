@@ -12,6 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-block: 25px;
+  margin-inline: 42px;
 }
 
 /* BADGE */
@@ -30,7 +31,7 @@ body {
 
 /* BANNER */
 .banner {
-  min-width: 896px;
+  max-width: 896px;
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -49,7 +50,6 @@ body {
 }
 
 /* CARD */
-
 .card {
   background-color: #fff;
   max-width: 384px;
@@ -76,7 +76,14 @@ body {
   text-align: center;
 }
 
-.card i {
+.card > span {
   position: absolute;
   top: -25px;
+  border-radius: 6px;
+}
+
+.card > span .icon-style {
+  height: 48px;
+  width: 48px;
+  padding: 12px;
 }
