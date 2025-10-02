@@ -1,6 +1,7 @@
 import Badge from "./components/Badge";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Testimonial from "./components/Testimonial";
 import { IoCloudUploadOutline } from "react-icons/io5";
 
 export default function App() {
@@ -56,6 +57,16 @@ export default function App() {
           magna sit morbi lobortis.
         </p>
       </Card>
+      <section className="testimonials">
+        <Testimonial
+          name={"May Andersons"}
+          message={
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctoradipiscing nunc urna, sit."
+          }
+          company={"Workcation"}
+          role={"CTO"}
+        />
+      </section>
     </>
   );
 }
