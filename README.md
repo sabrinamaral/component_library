@@ -48,9 +48,9 @@ Photo by <a href="https://unsplash.com/@maxwgold?utm_content=creditCopyText&utm_
 
 <img width="988" height="584" alt="Screenshot 2025-10-03 at 14 29 54" src="https://github.com/user-attachments/assets/20df4501-1844-4a0b-b5ec-34e0ac7acb56" />
 
-<img width="390" height="256" alt="Screenshot 2025-10-03 at 14 31 16" src="https://github.com/user-attachments/assets/3a3b2b16-c435-4c63-90c5-26a34b9b9c4c" />
+<img width="289" height="478" alt="Screenshot 2025-10-03 at 14 32 09" src="https://github.com/user-attachments/assets/5de21f31-1861-4661-8b98-07bbcaff0fe4" />
 
 <img width="299" height="375" alt="Screenshot 2025-10-03 at 14 32 01" src="https://github.com/user-attachments/assets/ded8b5de-b78c-44d2-9e39-2886eb6ceb12" />
 
-<img width="289" height="478" alt="Screenshot 2025-10-03 at 14 32 09" src="https://github.com/user-attachments/assets/5de21f31-1861-4661-8b98-07bbcaff0fe4" />
+<img width="390" height="256" alt="Screenshot 2025-10-03 at 14 31 16" src="https://github.com/user-attachments/assets/3a3b2b16-c435-4c63-90c5-26a34b9b9c4c" />
 
