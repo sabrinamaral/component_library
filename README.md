@@ -1,18 +1,45 @@
-# React + Vite
+# 🧩 Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A solo project built during the [Scrimba Advanced React course](https://scrimba.com/learn/advancedreact), this Component Library is a collection of reusable building blocks for modern web applications. It’s designed to help developers build user interfaces faster and more consistently using React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 What Is This?
 
-## React Compiler
+This project is a **Component Library**, which means it contains pre-made visual elements—like badges, banners, cards, and testimonials that can be reused across different websites or apps. Think of it like a designer’s toolkit for building user interfaces efficiently.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Here’s a breakdown of the technologies used, explained simply:
 
+| Tool            | Purpose                                                      |
+| --------------- | ------------------------------------------------------------ |
+| **React**       | The core framework used to build interactive UI components   |
+| **Vite**        | A fast development tool that helps run and build the project |
+| **React Icons** | A library of ready-to-use icons to enhance visual design     |
+
+---
+
+## 🚀 How to Run It
+
+Even if you're not a developer, here's what happens behind the scenes when someone runs this project:
+
+1. **Start the project**: Developers use the command `npm run dev` to launch the library in a local browser.
+2. **Build for production**: `npm run build` prepares the code for deployment.
+3. **Preview the final result**: `npm run preview` shows what the final version will look like.
+4. **Check for issues**: `npm run lint` scans the code for potential problems.
+
+---
+
+## 💟 Acknowledgements
+
+This project was developed as part of the Scrimba Advanced React course.
+
+🎨 Design inspiration: Component layouts and styles were provided via Figma.
+
+📘 Guidance: Tips, best practices, and project structure were outlined in Notion.
+
+📸 Visual assets:
 Photo by <a href="https://unsplash.com/@maxwgold?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Maxwell Gold</a> on <a href="https://unsplash.com/photos/a-woman-sitting-on-a-ledge-NOg9USSyj5c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
